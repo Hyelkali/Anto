@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BIANCA FOOTWEAR STORE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic layout styles */
+        body {
+            font-family: arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: aqua;
+            padding: 50px;
+            text-align: center;
+            text-shadow: 1px 1px rgb(130, 27, 226);
+        }
+
+        nav {
+            text-align: right;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 15px;
+            color: aqua;
+            text-decoration: none;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        /* Product grid styles */
+        .product {
+            display: grid;
+            grid-gap: 10px;
+            grid-row: 4;
+            background-color: rgb(0, 0, 0);
+            border-radius: 20px;
+            text-align: initial;
+            box-shadow: 5px 8px rgba(50, 119, 119, 0.1);
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: rgb(0, 0, 0);
+            border: none;
+            cursor: pointer;
+        }
+
+        .product img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .product h2 {
+            margin-top: 10px;
+        }
+
+        .product p {
+            margin-top: 5px;
+        }
+
+        .product:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>BIANCA ONLINE FOOTWEAR COLLECTION</header>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">contacts</a>
+        <a href="#">products</a>
+    </nav>
+
+    <div class="product"> <!-- Product 1 - Leather Footwear -->
+        <h2>LEATHER FOOTWEAR</h2>
+        <p>PRICE: $32.5</p>
+        <p>DESCRIPTION: MEN LEATHER SHOES</p>
+        <div class="images"> <img src="mozila.jpg"> </div>
+    </div>
+
+    <div class="product"> <!-- Product 2 - Heels -->
+        <h2>HEELS</h2>
+        <p>PRICE: $45.6</p>
+        <div class="images"> <img src="mozila.jpg"> </div>
+    </div>
+    <!-- Add similar product sections here -->
+
+    <footer>
+        &copy; @2023 BIANCA FOOTWEAR COLLECTION. ALL RIGHTS RESERVED.
+    </footer>
+</body>
+</html>

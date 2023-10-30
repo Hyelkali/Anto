@@ -1,0 +1,73 @@
+body{
+    background-image: url('../image/img1.jpeg');
+    /* background: linear-gradient(To right, rgba(223, 20, 64, 0.637), rgba(132,23,33,1), rgba(143,12,0,1), rgb(187, 81, 29)); */
+}
+@media (max-width:1230px){
+    body{
+        background-color: rgb(45, 51, 35);
+        display: flex;
+        justify-content: center;
+        background-image: url('image/apple-2.jpg');
+    }
+}
+@media (max-width:1430px){
+    body{
+        background-color: rgb(36, 238, 211);
+        display: flex;
+        justify-content: center;
+        background-image: url('image/apple-2.jpg');
+    }
+}
+@media (max-width:1630px){
+    body{
+        background-color: rgb(255, 251, 0);
+        display: flex;
+        justify-content: center;
+        background-image: url('image/apple-2.jpg');
+    }
+}
+@media (max-width:1830px){
+    body{
+        background-color: rgb(0, 255, 106);
+        display: flex;
+        justify-content: center;
+        background-image: url('image/apple-2.jpg');
+    }
+}
+
+@media (max-width:1050px){
+    body{
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:905px){
+    body{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+@media (max-width:850px){
+    body{
+        background-color: rgb(208, 255, 0)20);
+        display: flex;
+        justify-content: center;
+
+    }
+}
+@media (max-width:750px){
+    body{
+        background-color: rgb(1, 10, 2);
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+canvas{
+    margin: 20px;
+    padding: 10px;
+}

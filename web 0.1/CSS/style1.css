@@ -1,0 +1,19 @@
+h1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 40px 10px 20px 50px;
+    transform: rotate(45deg);
+}
+h1::before{
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    transform: rotate(90deg);
+}
+h1::after{
+    background-color: red;
+    height: 180px;
+    width: 180px;
+    transform: rotate(180deg);
+}
